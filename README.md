@@ -1,56 +1,16 @@
 # DocTalk
 
-A modern doctor appointment booking platform built with **React 19**, **Vite**, **TailwindCSS**, **DaisyUI**, and **Recharts**. DocTalk allows users to browse doctors, book appointments, view blogs, and contact the team, all with a clean and responsive UI.
+DocTalk is a modern doctor appointment booking platform where users can easily find doctors, book appointments, read blogs, and contact the team. It is fully responsive and user-friendly.
 
 ---
 
-## ✨ Features
+## 🖼️ Screenshot
 
-- **Doctor Listings:** Browse available doctors and book appointments.
-- **My Bookings:** View and manage your bookings.
-- **Blogs:** Read helpful articles and tips.
-- **Contact Us:** Reach out for support or inquiries.
-- **Responsive Design:** Looks great on all devices.
-- **Interactive Charts:** Visualize data with Recharts.
-- **Notifications:** Toast messages for user feedback.
-- **Modern UI:** Styled with TailwindCSS and DaisyUI.
+![DocTalk Screenshot](./public/assets/logo.png)
 
 ---
 
-## 🚀 Quick Start
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/assignment-8.git
-cd assignment-8
-```
-
-### 2. Install Dependencies
-
-```bash
-pnpm install
-# or
-npm install
-# or
-yarn install
-```
-
-### 3. Start the Development Server
-
-```bash
-pnpm dev
-# or
-npm run dev
-# or
-yarn dev
-```
-
-Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal).
-
----
-
-## 🛠️ Tech Stack
+## 🛠️ Main Technologies Used
 
 - **React 19**
 - **Vite 6**
@@ -63,71 +23,73 @@ Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your 
 
 ---
 
-## 📁 Project Structure
+## ✨ Main Features
 
-```
-.
-├── public/
-│   └── assets/
-│       └── logo.png
-├── src/
-│   ├── components/
-│   │   ├── Blogs.jsx
-│   │   ├── Booking.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Count.jsx
-│   │   ├── Footer.jsx
-│   │   └── Navbar.jsx
-│   ├── context/
-│   │   └── DoctorsProvider.jsx
-│   ├── Root/
-│   │   └── Root.jsx
-│   ├── Routes/
-│   │   └── Routes.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── package.json
-├── pnpm-lock.yaml
-├── vite.config.js
-└── README.md
-```
+- **Doctor Listings:** Browse doctors and book appointments
+- **My Bookings:** View and manage your bookings
+- **Blogs:** Read health-related blogs
+- **Contact Us:** Contact the team
+- **Responsive Design:** Looks great on all devices
+- **Interactive Charts:** Data visualization
+- **Notifications:** Toast messages for user feedback
 
 ---
 
-## 📸 Screenshots
+## 📦 Dependencies
 
-> _Add screenshots of your app here for a better showcase!_
+- react
+- react-dom
+- react-router-dom
+- tailwindcss
+- daisyui
+- recharts
+- react-toastify
+- react-icons
+- vite
 
 ---
 
-## ⚙️ Available Scripts
+## 🚀 How to Run on Local Machine
 
-- `pnpm dev` — Start development server
-- `pnpm build` — Build for production
-- `pnpm preview` — Preview production build
-- `pnpm lint` — Lint the code
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/assignment-8.git
+    cd assignment-8
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    pnpm install
+    # or
+    npm install
+    # or
+    yarn install
+    ```
+
+3. **Start the development server:**
+    ```bash
+    pnpm dev
+    # or
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+    Then open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 🔗 Live & Relevant Links
+
+- **Live Project:** [https://assignment-8.vercel.app/](https://assignment-8.vercel.app/)
+- **GitHub:** [https://github.com/your-username/assignment-8](https://github.com/your-username/assignment-8)
+- **Author:** [Rifat Alam](https://www.linkedin.com/in/md-jaber-hossain-chowdhury-543335252/)
 
 ---
 
 ## 📝 License
 
-This project is licensed under the MIT License.
-
----
-
-## 🙋‍♂️ Author
-
-- [Rifat Alam](https://www.linkedin.com/in/md-jaber-hossain-chowdhury-543335252/)
-- [Twitter](https://x.com/Rifatalam240?t=iVbtCbNZ9u7bInYGUsIhzQ&s=07)
-- [Facebook](https://www.facebook.com/profile.php?id=100058565890011)
-- [Instagram](https://www.instagram.com/muhammadrifat240?igsh=YzljYTk1ODg3Zg==)
-
----
-
-## 📬 Contact
-
-For any questions or feedback, please use the [Contact Us](#) page in the app.
+MIT License
 
 ---
 
